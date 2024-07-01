@@ -1,0 +1,26 @@
+#calculator {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 200px;
+  background-color: bisque;
+}
+#display {
+  margin: 10px 0px 10px 10px;
+  width: 85%;
+  background-color: aquamarine;
+  border-style: double;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  background-color: blueviolet;
+  border-style: dotted;
+}
